@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="webpage.css">
+        
+        <link href = "https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700" rel = "stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body> 
+        <header class="header">
+           
+                <div class="img-width">
+                    <img src="assets/logo-cloud-access.png" alt="logo-cloud-access" >
+                </div>
+                
+
+                <div class="flex-container style-div">
+                    <div class="dropdown">
+                        <div class="circle dropbtn"  onclick="myFunction()" >
+                             <i class="fa fa-bell-o"></i> 
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#">this is a dropdown</a>
+                                  <a href="#">this is a dropdown</a>
+                                  <a href="#">this is a dropdown</a>
+                                </div>
+                              </div>
+                    </div>
+                    
+                    <div>
+                        <p class="p1style">John.Smith</p>
+                        <p class="p2style">T-MOBILE USA</p>
+                    </div>
+                    <div>
+                        <img src="assets/icon-user.png" alt="icon-user" class="round-image" id="img-sidebar">  
+                        <div id="mySidebar" class="sidebar">
+                            <a href="#" class="closebtn">×</a>
+                            
+                        </div>
+
+                    </div>
+                         
+                </div>
+
+            </div>    
+        </header>
+        <div class="flex-container1" id="main" >
+        <div class="navbar" id="navbar">
+            <ul class="nav-bar" id="grp-pack">
+                <div class="a-groups sec">
+                    YOUR GROUPS/PACKS
+                </div>
+                <li class="active flex-container sec btns">
+                    <div class="flex-container width-cont ">
+                        <img src="assets/icon-group-big1.png" class="img-grp-big">
+                        <a href="#" class="my-groups link-active links">My Groups</a>
+                    </div>
+                    <div class="b4">
+                        <button class="b3  button-active">10</button>
+                    </div>  
+                </li>
+                <li class="flex-container sec btns">
+                    <div class="flex-container width-cont">
+                        <img src="assets/icon-pack.png" class="img-grp-big"> 
+                        <a href="#" class="my-packs link-na links">My Packs</a>
+                    </div>
+                    <div>
+                            <button class="b-mypacks button-na">1</button>
+
+                    </div>        
+                </li>    
+            </ul>
+            <div class="hor-line"></div>
+            <ul class="nav-bar">
+                <header class="a-groups sec"> YOUR REQUESTS</header>
+                
+                <li class="flex-container sec">
+                    <a href="#Mygroups" class="pending">
+                        Pending 
+                    </a>
+                        <button class="b-pending " >6</button>
+                    
+                </li>
+                <li class="flex-container sec ">
+                    <a href="#Mypacks" class="approved ">Approved  </a>
+                        <button class="b-approved " > 0</button>
+                   
+                </li>
+                <li class="flex-container sec ">
+                    <a href="#rejected" class="approved">Rejected </a>
+                        <button class="b-approved "> 0
+                        </button>
+                    </li>    
+                
+            </ul>
+            
+            <div class="hor-line"></div>
+            <ul class="nav-bar">
+                <header class="a-groups sec">YOUR APPROVALS</header>
+                <li class="sec">
+                    <p class="no-approvals">You do not have any approvals yet</p>
+                </li>
+                
+            </ul>
+            <div class="hor-line"></div>
+            <ul class="nav-bar nv1">
+                <li class="sec flex-content ">
+                    <img src="assets/icon-group.png" style="margin-right: 0.5em;">
+                    <p href="#" class="all-groups" style="margin-top:0.1em"> ALL GROUPS</p>
+                </li>
+                <li class="sec flex-content">
+                    <img src="assets/icon-pack.png" style="margin-right: 0.5em;">
+                    <p href="#" class="all-groups" style="margin-top:0.1em;"> ALL PACKS</p>
+                </li>
+            </ul>
+            <div class="hor-line"></div>
+
+
+        </div>
+        
+        <main class="main-sec" >
+            <p class="groups-abc">YOUR GROUPS / ABC SECURITY GROUP DETAILS</p>
+            <section class="main-cont">
+                <div class=" flex-container sec2">
+                    <div class="flex-container wid">
+                        <div class="flex-container abc">
+                            <img src="assets/icon-group-big.png" class="logo-img">
+                            <p class="abc-sec">ABC Security Group</p>
+                        </div>
+                        <div style="margin-right:0.8em;">
+    
+                            <button class="btn-delete ">
+                                 <i class="fa fa-trash" ></i> 
+                                 <div class="delete">Delete Group</div>      
+                            </button>
+                        </div>
+                        
+
+                    </div>
+                    <div class="wid wid-style" id="description" >
+                        <div class="desc" >
+                            <div class="description" style="padding: 5px; margin-top: 10px;">
+                                DESCRIPTION
+                            </div>
+
+                            <div style="padding: 5px;">
+                            
+                            <div id="paragraph-cont" >
+                                <div class="lorem-para" id="lorem-para">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Ut sit amet porta mi, in efficitur velit. 
+                                    Proin at nibh non est efficitur fermentum.
+                                     Proin id quam vel augue mattis vestibulum. 
+                                     Curabitur turpis diam, aliquam sed lacus
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Ut sit amet porta mi, in efficitur velit. 
+                                    Proin at nibh non est efficitur fermentum.
+                                     Proin id quam vel augue mattis vestibulum. 
+                                     Curabitur turpis diam, aliquam sed lacus
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Ut sit amet porta mi, in efficitur velit. 
+                                    Proin at nibh non est efficitur fermentum.
+                                     Proin id quam vel augue mattis vestibulum. 
+                                     Curabitur turpis diam, aliquam sed lacus
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Ut sit amet porta mi, in efficitur velit. 
+                                    Proin at nibh non est efficitur fermentum.
+                                     Proin id quam vel augue mattis vestibulum. 
+                                     Curabitur turpis diam, aliquam sed lacus
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     
+                                     <br>
+                                     <br>
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Ut sit amet porta mi
+                                        
+                                        
+
+                                </div>
+                                <div id="grad"></div>
+                                
+                            </div>
+                            <div class="flex-container arrow-style"  >
+                                <img src="assets/a-up.png" alt="arrow-down" id="arrow-down" onclick= "totalPara()" >
+
+                            </div> 
+                            
+                        </div>
+                                
+                            
+                        </div>
+                        <div class="desc">
+                            <div class="flex-container" style="padding: 5px; ">
+                                <div class="description">
+                                    DETAILS
+    
+                                </div>
+                                <div style="margin-bottom: 5px;">
+                                    <a href="#" class="edit-details" >Edit details</a>
+                                </div>
+
+                            </div>
+                            <div class="flex-details" style="padding: 5px; padding-right: 2em;">
+                                <div class="detail-flex1" >
+                                    
+                                        <div class="created-on">Create on</div>
+                                        <div class="date" >10/10/2018</div>
+                                          
+                                </div>
+                                <div class="detail-flex1" >
+    
+                                    <div class="created-on">Created By</div>
+                                    <div class="date " >John Smith </div>
+                                    
+                                </div>
+                                <div class="detail-flex1" >
+                                    <div class="created-on">Membership type</div>
+                                    <div class="date ">Assigned</div>
+                                </div>
+                                <div class="detail-flex1">
+                                    <div class="created-on">Group type</div>
+                                    <div class="date ">Security</div>
+                                </div>
+                            </div>
+                        <div class="group-owners" style="padding: 5px;">
+                            
+                               
+                            <div class="created-on" style="margin-bottom: 3px;">Group Owner's</div> 
+                             
+                         
+                            <div class="grp-own-details" >
+                                    <div style="margin-right: 7px;">
+                                        <button class="flex-container  but-bg">
+                                            <div class="btn-name">john smith</div> <img src="assets/icon-close-copy.png" alt="icon-close" class="btn-img">
+                                        </button>
+                                    </div>
+                                    <div  style="margin-right: 7px;">
+                                        <button class="flex-container  but-bg" >
+                                            <div class="btn-name">john smith</div> <img src="assets/icon-close-copy.png" alt="icon-close" class="btn-img">
+                                        </button>
+                                        
+                                    </div>
+                                    <div  style="min-width: max-content;"> 
+                                        <a href="#" class="owner-details">Add Owner</a>
+                                    </div>
+                            </div>
+                         
+                        </div>
+
+                    </div>
+                        
+
+                    </div>
+                    <div class="flex-container wid" style="padding: 40px 10px 20px;">
+                        <div>
+                            <div class="grp flex-container" >GROUP MEMBER'S <div class="gp-40" style="margin-left: 5px;">(40)</div></div>
+                        </div>
+                        <div class="flex-container">
+                            <div >
+                                <button class="flex-container find" style="margin-right: 0.6em;">
+                                    <div class="find-member">Find a Member</div><img src="assets/icon-search.png" alt="search" class="img-search"></button>
+            
+                            </div>
+                            <div >
+                                <button class="add" id="add-member" ><p class="add-p">+ Add Member</p></button>
+                                <div class="modal" id="myModal">
+                                    <div class="modal-content">
+                                        <span class="close">
+                                            &times;
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                        
+                    </div>
+                    
+                    <div style="overflow-x:auto; width: 100%; margin: 0em 1em;">
+                        <table>
+                          <tr class="table-head" >
+                            <th >
+                                <div class="tb-head">
+                                    MEMBERS NAME
+                                    <img class="img-adjust" src="assets/arrow-up.png" style="float: right; ">
+                                    <img class="img-adjust" src="assets/arrow-down.png" style="float: right;">
+                                    
+                                </div>
+                                
+                                
+                            </th>
+                            <th >
+                                <div class="tb-head">
+                                   TITLE
+                                    <img class="img-adjust" src="assets/arrow-up.png" style="float: right;">
+                                    <img class="img-adjust" src="assets/arrow-down.png" style="float: right;">
+                                    
+                                </div>
+                                
+                                
+                            </th>
+                            
+                            
+                            <th >
+                                <div class="tb-head">
+                                    STATUS
+                                    <img class="img-adjust" src="assets/arrow-up.png" style="float: right;">
+                                    <img class="img-adjust" src="assets/arrow-down.png" style="float: right;">
+                                    
+                                </div>
+                                
+                                
+                            </th>
+                            <th >
+                                <div class="tb-head">
+                                    ACTIONS
+                                    <img class="img-adjust" src="assets/arrow-up.png" style="float: right;">
+                                    <img class="img-adjust" src="assets/arrow-down.png" style="float: right;">
+                                    
+                                </div>
+                                
+                                
+                            </th>
+                            
+                          </tr>
+                          <tr>
+                            <td >
+                                
+                                <div class="flex-container2">
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                                    <a href="#" class="a1"><div class="text-over">john smith</div></a>
+                            </div>
+                            
+                            </td>
+                            <td class="td2"><div class="text-over">Senior Architect</div></td>
+                            
+                            <td class="td2"><div class="text-over">Member</div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                <div class="flex-container2" >
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                                <a href="#" class="a1"><div class="text-over">Xenie Dolezelova</div></a>
+                            
+                                </div>
+                                
+                            </td>
+                            <td class="td2"><div class="text-over"> Senior Developer </div></td>
+                            <td class="td2"><div class="text-over"> Member </div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex-container2">
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                               
+                                
+                                <a href="#" class="a1"><div class="text-over">Tatiana Gagelman</div></a>
+                            </div>
+                            </td>
+                            <td class="td2"><div class="text-over"></div>Senior Lead Developer</td>
+                            <td class="td2"><div class="text-over"></div>Member</td>
+                            <td class="td2"><div class="text-over"></div>...</td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="flex-container2">
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                                
+                                <a href="#" class="a1"><div class="text-over">Stormie Hansford</div></a>
+                            </div>
+                            </td>
+                            <td class="td2"><div class="text-over">Front-End Developer</div></td>
+                            <td class="td2"><div class="text-over">Member</div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex-container2">
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                                
+                                    <a href="#" class="a1"><div class="text-over">Sukhbirpal Dhalan</div></a>
+
+                                </div>      
+                           
+                            </td>
+                            <td class="td2"><div class="text-over">Developer</div></td>
+                            <td class="td2"><div class="text-over">Member</div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr>
+                           <td>
+                            <div class="flex-container2">
+                                
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                                
+                                <a href="#" class="a1"><div class="text-over">Chandrashekar Ganguli</div></a>
+                            </div>
+                            </td>
+                            <td class="td2"><div class="text-over">Back-End Developer</div></td>
+                            <td class="td2"><div class="text-over">Member</div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="flex-container2">
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                                
+                                <a href="#" class="a1"><div class="text-over">Gladys Kanyinda</div></a>
+                            </div>
+                            </td>
+                            <td class="td2"><div class="text-over">UX Researcher</div></td>
+                            <td class="td2"><div class="text-over">Member</div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="flex-container2">
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                               
+                                <a href="#" class="a1"><div class="text-over">Jube Bowman</div></a>
+                            </div>
+                            </td>
+                            <td class="td2"><div class="text-over">Intern Developer</div></td>
+                            <td class="td2"><div class="text-over">Member</div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex-container2">
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                               
+                                <a href="#" class="a1"><div class="text-over">Leo Knight</div></a>
+                            </div>
+                            </td>
+                            <td class="td2"><div class="text-over">Intern Designer</div></td>
+                            <td class="td2"><div class="text-over">Member</div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <div class="flex-container2">
+                                    <img src="assets/icon-user.png" height="19px" width="19px">
+                                
+                                <a href="#" class="a1"><div class="text-over">Rafeeda El Nouri</div> </a>
+                            </div>
+                            </td>
+                            <td class="td2"><div class="text-over">UI Designer</div></td>
+                            <td class="td2"><div class="text-over">Member</div></td>
+                            <td class="td2"><div class="text-over">...</div></td>
+                        </tr>
+                        <tr style="box-shadow:none;">
+                            
+                            <td colspan="4" style="padding: 10px 0px;"> 
+                                <div class="flex-container" style="justify-content: flex-end;">
+                                    <div class="flex-container" style="width:20em; ">
+                                    <div class = "flex-container" style="width:30%; justify-content: center;">
+                                        <div class="bts">Showing 10-20</div>
+                                    </div>
+
+                                    <div class="vl">
+
+                                    </div>
+                                    
+                                    <div class="flex-container" style="width:20%; justify-content: center;" >
+                                        <label class="bts" style="margin: 5px;">Goto </label>
+                                        <input class="inp">
+                                    </div>
+                                    
+                                    <div class="vl">
+
+                                    </div>
+                                    
+                                    
+                                       
+                                     <div style="width:45%; margin-top: 4px;">      
+                                         <ul id="menu" class="bts flex-container" >
+                                             <li><img src="assets/arrow-backward.png" alt="back"></li>
+                                             <li style="color: #e20074;">1</li>
+                                             <li>2</li>
+                                             <li>3</li>
+                                             <li>...</li>
+                                             <li>10</li>
+                                             <li><img src="assets/rectangle-copy-18.png" alt="front"></li>
+                                             
+                                         </ul>
+                                    </div> 
+
+                                    
+                                    
+                                </div>
+                            </div>
+                              </td>
+                           
+                        </tr>
+                          
+                        </table>
+                      </div>
+                      
+                    
+                    
+                   
+                </div>
+
+            </section>
+            
+               
+
+               
+            
+
+            
+            
+
+
+        </main>
+    
+    </div>  
+    <script src="webpage.js"></script>
+    </body>
+
+</html>
